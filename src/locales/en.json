@@ -1,0 +1,26 @@
+{
+    "Layout": {
+        "metaData": {
+            "title": "VIRTUAL SOLUTIONS | TRANSPORTATION & LOGISTICS",
+            "description": "Virtual Solutions specializes in innovative and efficient transportation and logistics services, offering tailored solutions to streamline your supply chain and ensure timely delivery across the globe",
+            "keywords": [
+                "logistics",
+                "transportation",
+                "supply chain",
+                "freight services",
+                "global shipping",
+                "warehousing",
+                "Virtual Solutions"
+            ],
+            "author": "Virtual Solutions Team",
+            "charset": "UTF-8",
+            "lang": "en"
+        }
+    },
+    "Header": {
+        "appTitle": "VIRTUAL SOLUTIONS",
+        "appSubTitle": "TRANSPORTATION & LOGISTICS",
+        "openTime": "Mon - Sat 9.00 - 18.00",
+        "closedDay": "Sunday Closed"
+    }
+}

@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background: hsl(0, 0%, 100%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.banner {
+  background: url('/images/home-banner-img.png') center center/cover no-repeat;
+  min-height: calc(100vh - 108px);
+}
+
+.ripple-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-button::before {
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transition: width 0.4s, height 0.4s;
+}
+
+.half-image-half-color {
+  width: 100%;
+  /* Adjust height as needed */
+
+  background:
+    linear-gradient(to top, white 50%, transparent 50%),
+    url('/images/whyusbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.half-bg-gradient {
+  background: linear-gradient(0deg, #17495B -11.11%, rgba(23, 73, 91, 0.00) 90.28%);
+}
+
+.stats-box-bg {
+  background: linear-gradient(94deg, #F8A71B -1.21%, #FBC65D 58.66%, #FCE2A0 116.84%);
+  width: 17px;
+  height: 17px;
+}
+
+.swiper-button {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  width: 52px;
+  height: 52px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.swiper-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-swiper-button-prev {
+  right: 80px;
+}
+
+.image-swiper-button-next {
+  right: 20px;
+}
