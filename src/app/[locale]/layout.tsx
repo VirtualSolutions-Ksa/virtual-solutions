@@ -29,22 +29,22 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical:'https://virtualsolutions.vercel.app/',
+      canonical:'https://www.virtualksa.com/',
       languages: {
-        en: 'https://virtualsolutions.vercel.app/en', 
-        ar: 'https://virtualsolutions.vercel.app/ar',
+        en: 'https://www.virtualksa.com/en', 
+        ar: 'https://www.virtualksa.com/ar',
       },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: 'https://virtualsolutions.vercel.app/',
+      url: 'https://www.virtualksa.com/',
       siteName: t("title"),
       type: 'website',
       images: [
         {
-          url: 'images/virtual-solutions-overview.png',
-          secureUrl: 'https://virtualsolutions.vercel.app/images/virtual-solutions-overview.png',
+          url: '/images/logo.png',
+          secureUrl: 'https://www.virtualksa.com/images/logo.png',
           width: 1200,
           height: 630,
           alt: 'Preview image for Virtual Solutions',
@@ -58,7 +58,7 @@ export async function generateMetadata({
       description: t("description"),
       creator: '@virtualsolutions',
       images: {
-        url: 'https://virtualsolutions.vercel.app/images/virtual-solutions-overview.png',
+        url: 'https://www.virtualksa.com/images/logo.png',
         alt: 'Virtual Solutions',
       }
     },
