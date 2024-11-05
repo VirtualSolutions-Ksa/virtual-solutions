@@ -96,7 +96,7 @@ export default function Page() {
                             <div className="text-white text-nowrap font-kurb text-sm font-medium leading-[136%]">
                                 <p>Email</p>
                                 <Link href="mailto:info@yourwebsite.com">
-                                    contact@logistics.com
+                                    Ops-cs@virtualksa.com
                                 </Link>
                             </div>
                         </div>
@@ -106,8 +106,8 @@ export default function Page() {
                             </div>
                             <div className="text-white font-kurb text-sm font-medium leading-[136%]">
                                 <p>Call Us</p>
-                                <Link href="tel:+1234567890">
-                                    1234567890
+                                <Link href="tel:+051842353">
+                                    051842353
                                 </Link>
                             </div>
                         </div>

@@ -97,17 +97,13 @@ export default function Footer() {
                       <div className="">
                           <div className="mb-5">
                               <div className="flex gap-2 items-center mb-1">
-                                  <div className="w-2 h-2 rounded-full bg-app-red"></div>
-                                  <p className="text-white font-poppins text-sm font-medium leading-[20px] capitalize">Qatar</p>
+                                  <div className="w-2 h-2 rounded-full bg-white"></div>
+                                  <p className="text-white font-poppins text-sm font-medium leading-[20px] capitalize">Riyadh</p>
                               </div>
                               <div className="flex gap-4">
                                   <div className="w-[0.2px] bg-[#F5F5F5] ml-[2px]"></div>
                                   <p className="text-white text-sm font-normal leading-[20px] capitalize text-balance">
-                                      street 3083
-                                      Birkathul awamir
-                                      Doha
-                                      Qatar
-                                      Po box-9044
+                                      Istanbul - Suali - Riyadh 11521
                                   </p>
                               </div>
                           </div>

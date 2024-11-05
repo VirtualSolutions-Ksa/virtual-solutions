@@ -59,7 +59,7 @@ export default function HamburgerMenu({ navLinks }: HamburgerMenuProps) {
             </div>
             {isOpen && (
                 <div
-                    className="absolute bg-white top-full right-0 w-full bg-gray-900 text-dark-blue shadow-lg rounded-md mt-2 py-4 z-10 transform transition-transform duration-500 ease-out"
+                    className="absolute bg-white top-full right-0 w-full bg-gray-900 text-dark-blue shadow-lg rounded-md mt-2 py-4 z-50 transform transition-transform duration-500 ease-out"
                 >
                     {navLinks.map((link, idx) => (
                         <div
