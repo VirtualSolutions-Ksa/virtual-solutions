@@ -3,15 +3,13 @@
         "metaData": {
             "title": "ويرتشوال سولوشنز | النقل والخدمات اللوجستية",
             "description": "تتخصص الحلول الافتراضية في خدمات النقل والخدمات اللوجستية المبتكرة والفعالة، وتقدم حلولاً مخصصة لتبسيط سلسلة التوريد الخاصة بك وضمان التسليم في الوقت المناسب على مستوى العالم.",
-            "keywords": [
-                "الخدمات اللوجستية",
-                "النقل",
-                "سلسلة التوريد",
-                "خدمات الشحن",
-                "الشحن العالمي",
-                "التخزين",
-                "ويرتشوال سولوشنز"
-            ]
+            "logistics": "logistics",
+            "transportation": "transportation",
+            "supply chain": "supply chain",
+            "freight services": "freight services",
+            "global shipping": "global shipping",
+            "warehousing": "warehousing",
+            "Virtual Solutions": "Virtual Solutions"
         }
     },
     "Header": {

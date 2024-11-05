@@ -26,6 +26,7 @@ export async function generateMetadata({
   });
 
   return {
+    metadataBase: new URL('https://www.virtualksa.com/'),
     title: t("title"),
     description: t("description"),
     alternates: {
@@ -35,6 +36,7 @@ export async function generateMetadata({
         ar: 'https://www.virtualksa.com/ar',
       },
     },
+    keywords: [t('logistics'), t('transportation'), t('supply chain'), t('freight services'), t('global shipping'), t('warehousing'), t('Virtual Solutions')],
     openGraph: {
       title: t("title"),
       description: t("description"),

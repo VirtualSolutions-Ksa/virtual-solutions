@@ -1,17 +1,15 @@
 {
     "Layout": {
         "metaData": {
-            "title": "VIRTUAL SOLUTIONS | TRANSPORTATION & LOGISTICS",
+            "title": "Top Shipping Company In Saudi Arabia - VIRTUAL SOLUTIONS | TRANSPORTATION & LOGISTICS",
             "description": "Virtual Solutions specializes in innovative and efficient transportation and logistics services, offering tailored solutions to streamline your supply chain and ensure timely delivery across the globe",
-            "keywords": [
-                "logistics",
-                "transportation",
-                "supply chain",
-                "freight services",
-                "global shipping",
-                "warehousing",
-                "Virtual Solutions"
-            ],
+            "logistics": "logistics",
+            "transportation": "transportation",
+            "supply chain": "supply chain",
+            "freight services": "freight services",
+            "global shipping": "global shipping",
+            "warehousing": "warehousing",
+            "Virtual Solutions": "Virtual Solutions",
             "author": "Virtual Solutions Team",
             "charset": "UTF-8",
             "lang": "en"
