@@ -45,10 +45,10 @@ export default function Page() {
     const onSubmit: SubmitHandler<FormData> = async (data) => {
         try {
             const response = await axios.post<ApiResponse>('/api/contact', data);
-            toast(response.data.message);
+            toast.success(response.data.message);
             reset();  // Reset form after successful submission
         } catch (error) {
-            toast("Failed to send message. Try again later.");
+            toast.error("Failed to send message. Try again later.");
         }
     };
 
