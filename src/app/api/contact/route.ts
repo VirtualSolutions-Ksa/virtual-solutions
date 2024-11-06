@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
 
     const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: 'muhammedresvan@gmail.com',
+        to: 'anshif.ummer@virtualksa.com',
         subject: 'New Enquiry from Your Website',
         html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
