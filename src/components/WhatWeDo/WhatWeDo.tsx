@@ -71,7 +71,7 @@ const WhatWeDo = () => {
                         Our Logistics Services
                     </p>
                     <p className="mt-4 text-lg max-w-[956px] text-center text-[#6F7B8E] font-medium leading-relaxed">
-                        At Virtual Solution Logistics, we offer a wide range of services designed to meet your transportation and supply chain needs. Whether you're shipping internationally, relocating, or need specialized storage solutions, we have the expertise and resources to get the job done efficiently and safely.
+                        At Virtual Solution Logistics, we offer a wide range of services designed to meet your transportation and supply chain needs. Whether you&apos;re shipping internationally, relocating, or need specialized storage solutions, we have the expertise and resources to get the job done efficiently and safely.
                     </p>
                 </div>
 
