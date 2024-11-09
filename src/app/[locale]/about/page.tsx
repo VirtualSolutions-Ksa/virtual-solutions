@@ -1,51 +1,52 @@
 'use client';
-import AnimatedNumber from '@/components/AnimatedNumber/AnimatedNumber';
 import CompanyStats from '@/components/CompanyStats/CompanyStats';
 import LableHeading from '@/components/LabelHeading/LableHeading';
 import RippleButton from '@/components/RippleButton';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-export default function page() {
-    const services = [
-        {
-            title: 'Sea Transport',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/ship-icon.svg'
-        },
-        {
-            title: 'Warehousing',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/ware-house-icon.svg'
-        },
-        {
-            title: 'Air Fright',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/Flight-icon.svg'
-        },
-        {
-            title: 'Local Freight',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/viechile-icon.svg'
-        },
-        {
-            title: 'DHL Courier',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/dhl-icon.svg'
-        },
-        {
-            title: 'Packing',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/packing-icon.svg'
-        },
-        {
-            title: 'Relocation',
-            description: 'Following the quality of our service thus having gained trust of our many clients.',
-            image: '/icons/relocation-icon.svg'
-        },
-    ]
+const services = [
+    {
+        title: 'Sea Transport',
+        description: 'We offer efficient sea transport services globally, ensuring the safety and timely delivery of goods.',
+        image: '/icons/ship-icon.svg'
+    },
+    {
+        title: 'Warehousing',
+        description: 'Our modern and secure warehouses are strategically located to provide safe storage for your goods.',
+        image: '/icons/ware-house-icon.svg'
+    },
+    {
+        title: 'Air Freight',
+        description: 'Reliable air freight services for urgent and time-sensitive deliveries, ensuring global reach.',
+        image: '/icons/Flight-icon.svg'
+    },
+    {
+        title: 'Local Freight',
+        description: 'Efficient local freight solutions to meet your regional transportation needs with quick turnarounds.',
+        image: '/icons/viechile-icon.svg'
+    },
+    {
+        title: 'DHL Courier',
+        description: 'Partnered with DHL, we offer fast and reliable courier services for international shipping.',
+        image: '/icons/dhl-icon.svg'
+    },
+    {
+        title: 'Packing',
+        description: 'Our packing services ensure that your goods are securely packed to prevent damage during transport.',
+        image: '/icons/packing-icon.svg'
+    },
+    {
+        title: 'Relocation',
+        description: 'We specialize in both residential and corporate relocation services, ensuring smooth transitions.',
+        image: '/icons/relocation-icon.svg'
+    },
+];
+
+export default function AboutPage() {
     return (
         <>
+
             {/* Hero Section */}
             <section
                 style={{
@@ -67,7 +68,7 @@ export default function page() {
                     className="relative max-w-[570px] text-white font-rubik my-14 mx-4 md:mx-7 lg:mx-10 z-10">
                     <LableHeading text="About Us" styles="text-white bg-[rgba(26,45,64,0.50)]" />
                     <h1 className="mt-2 text-3xl md:text-4xl font-bold leading-normal" aria-label="Main Heading">
-                        About Our Logistics
+                        About Our Logistics Company
                     </h1>
                 </motion.div>
             </section>
@@ -86,7 +87,7 @@ export default function page() {
                             Our Company Overview
                         </h2>
                         <p className="mt-2 text-[#6F7B8E] font-kurb text-base font-medium leading-[150%]">
-                            Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+                            At Virtual Solution Logistics, we are committed to providing innovative and reliable transportation solutions worldwide. Our extensive network and modern technologies ensure the secure and timely delivery of goods. With a focus on customer satisfaction, we aim to build lasting partnerships with clients across various industries.
                         </p>
                         <RippleButton
                             component="link"
@@ -104,7 +105,7 @@ export default function page() {
                         >
                             <Image
                                 src="/images/about-img-one.png"
-                                alt="Flight"
+                                alt="Logistics warehouse with containers"
                                 width={461}
                                 height={415}
                                 className="object-cover h-auto w-auto max-w-full"
@@ -120,7 +121,7 @@ export default function page() {
                         >
                             <Image
                                 src="/images/about-img-two.png"
-                                alt="Flight"
+                                alt="Logistics team in a warehouse"
                                 width={200}
                                 height={100}
                                 className="object-cover h-28 md:h-36 w-auto max-w-full"
@@ -130,9 +131,9 @@ export default function page() {
                 </div>
             </section>
 
-            {/* Mission & Vision Section with Animations */}
+            {/* Mission & Vision Section */}
             <div className="xl:container mx-auto px-6 md:px-12 lg:px-24">
-                <h2 className="text-center text-4xl font-semibold text-gray-800 mb-12">Our Mission & Vision</h2>
+                <h2 className="text-center text-4xl font-bold mb-12">Our Mission & Vision</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-16">
                     {/* Mission Section */}
@@ -145,7 +146,7 @@ export default function page() {
                     >
                         <Image
                             src="/images/Mission.png"
-                            alt="Mission Image"
+                            alt="Mission of Global Logistics"
                             width={500}
                             height={350}
                             className="object-cover object-center max-h-[200px] w-auto max-w-full h-auto mx-auto"
@@ -160,7 +161,7 @@ export default function page() {
                     >
                         <h3 className="text-3xl font-bold text-primary mb-4">Our Mission</h3>
                         <p className="text-gray-600 text-base leading-relaxed">
-                            To deliver high-quality solutions that create value and reliable competitive advantage for our clients around the world. We focus on leveraging cutting-edge technologies and fostering innovation to provide impactful results.
+                            To deliver high-quality solutions that create value and reliable competitive advantage for our clients worldwide. We focus on leveraging cutting-edge technologies and fostering innovation to provide impactful results.
                         </p>
                     </motion.div>
                 </div>
@@ -176,7 +177,7 @@ export default function page() {
                     >
                         <Image
                             src="/images/Vision.png"
-                            alt="Vision Image"
+                            alt="Vision of Global Logistics"
                             width={500}
                             height={350}
                             className="object-cover object-center max-h-[240px] w-auto max-w-full h-auto mx-auto"
@@ -191,7 +192,7 @@ export default function page() {
                     >
                         <h3 className="text-3xl font-bold text-primary mb-4">Our Vision</h3>
                         <p className="text-gray-600 text-base leading-relaxed">
-                            To be a global leader in providing innovative solutions and services that empower companies to achieve their goals. We strive to make a lasting impact by fostering a culture of growth, integrity, and sustainability.
+                            To be the leading provider of innovative and sustainable logistics solutions worldwide, creating efficiencies and opportunities for our clients through reliable and cutting-edge transportation services.
                         </p>
                     </motion.div>
                 </div>
@@ -232,6 +233,5 @@ export default function page() {
             </section>
             <CompanyStats />
         </>
-
     );
 }

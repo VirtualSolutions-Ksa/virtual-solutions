@@ -41,7 +41,7 @@ export default function Index() {
                             </MotionItem>
                             <MotionItem>
                                 <p className="text-gray font-kurb text-base/[151%] font-medium">
-                                    Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.
+                                    We offer a complete range of logistics services tailored to your needs, including secure packaging, global shipping, and real-time tracking. With 24/7 customer support and an on-time delivery guarantee, you can trust us to handle your shipments with care. Our transparent pricing means no hidden fees—just reliable, straightforward service.
                                 </p>
                             </MotionItem>
                         </div>

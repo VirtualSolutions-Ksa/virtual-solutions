@@ -1,26 +1,27 @@
-'use client'
-import Image from 'next/image'
-import React from 'react'
-import LableHeading from '../LabelHeading/LableHeading'
-import { motion } from 'framer-motion'
-import RippleButton from '../RippleButton'
+'use client';
+import Image from 'next/image';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 export const OurWork = () => {
     const services = [
         {
             title: 'Warehousing Services',
-            description: 'Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.',
-            image: '/icons/ship-icon.svg'
+            description: 'We provide secure, scalable storage solutions for your inventory. Our warehouses are equipped with the latest technologies to ensure efficiency and safety.',
+            image: '/icons/ship-icon.svg',
+            alt: 'Warehousing Services'
         },
         {
             title: 'Safety & Quality',
-            description: 'Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.',
-            image: '/icons/ware-house-icon.svg'
+            description: 'We prioritize the safety of your shipments and ensure the highest standards of quality control at every stage of the supply chain.',
+            image: '/icons/ware-house-icon.svg',
+            alt: 'Safety & Quality'
         },
         {
             title: 'Care for Environment',
-            description: 'Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.',
-            image: '/icons/Flight-icon.svg'
+            description: 'We are committed to sustainable practices, ensuring that all logistics operations are eco-friendly and minimize environmental impact.',
+            image: '/icons/Flight-icon.svg',
+            alt: 'Care for Environment'
         },
     ]
 

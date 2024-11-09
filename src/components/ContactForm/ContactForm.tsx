@@ -67,7 +67,7 @@ export default function ContactForm() {
                       Get in touch with us
                   </h4>
                   <p className="text-white font-kurb text-base/[151%] font-normal">
-                      Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.
+                      We are here to assist you! Reach out to us for inquiries or support. Our team is available to provide you with the best logistics solutions. Whether you prefer email or phone, we are happy to connect and discuss your needs.
                   </p>
                   <div className='space-y-4 mt-4'>
                       <div className="flex gap-3 items-center">
