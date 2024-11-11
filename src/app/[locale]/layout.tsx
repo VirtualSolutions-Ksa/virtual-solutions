@@ -2,7 +2,7 @@ import "./globals.css";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { type Locale, locales } from "@/i18n/i18n.config";
 import { Metadata } from "next";
-import { krub, rubik } from "@/fonts/font";
+import { krub, noto, rubik } from "@/fonts/font";
 import Header from "@/components/Header/Header";
 import useTextDirection from "@/hooks/useTextDirection";
 import NextIntlClientWrapper from "@/components/NextIntlClientWrapper/NextIntlClientWrapper";
@@ -84,11 +84,11 @@ export default  function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${rubik.variable} ${krub.variable}`}
+      className={`${locale === 'ar' ? 'font-noto' : 'font-rubik'} ${locale == 'ar' ? `${noto.variable}` : `${rubik.variable} ${krub.variable}`}`}
       dir={dir}
     >
       <body
-        className="2xl:container mx-auto"
+        className={`2xl:container mx-auto ${locale == 'ar' ? 'font-noto': 'font-kurb'}`}
       >
         <NextIntlClientWrapper>
           <Header />

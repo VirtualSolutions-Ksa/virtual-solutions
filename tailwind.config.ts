@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         rubik: ['var(--font-rubik)'],
         kurb: ['var(--font-kurb)'],
+        noto: ['var(--font-noto)'],
       },
       colors: {
         primary: {

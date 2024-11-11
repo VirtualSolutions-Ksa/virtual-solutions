@@ -32,6 +32,7 @@ export default function ServicesCardSection() {
             url: '/services/packing'
         },
     ];
+    
 
     return (
         <section className="py-24 px-4 md:px-7 lg:px-24 bg-gradient-to-b from-white via-white to-yellow-500">

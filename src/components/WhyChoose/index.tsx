@@ -3,8 +3,10 @@ import Image from "next/image";
 import LableHeading from "../LabelHeading/LableHeading";
 import MotionContainer from '../MotionContainer/MotionContainer';
 import MotionItem from '../MotionItem/MotionItem';
+import { useTranslations } from "next-intl";
 
 export default function Index() {
+    const t = useTranslations("whyChoose");
     return (
         <section className="">
             <MotionContainer classNames="grid grid-cols-1 md:grid-cols-2">
@@ -32,43 +34,43 @@ export default function Index() {
                     <div>
                         <div className="pb-10">
                             <MotionItem>
-                                <LableHeading text="Why Choose" styles='text-dark-blue bg-[rgba(232,232,232,0.50)]' />
+                                <LableHeading text={t("heading")} styles='text-dark-blue bg-[rgba(232,232,232,0.50)]' />
                             </MotionItem>
                             <MotionItem>
                                 <h4 className="text-dark-blue font-rubik text-[35px] leading-9 font-semibold my-3">
-                                    We create opportunity to reach potential
+                                    {t("subHeading")}
                                 </h4>
                             </MotionItem>
                             <MotionItem>
                                 <p className="text-gray font-kurb text-base/[151%] font-medium">
-                                    We offer a complete range of logistics services tailored to your needs, including secure packaging, global shipping, and real-time tracking. With 24/7 customer support and an on-time delivery guarantee, you can trust us to handle your shipments with care. Our transparent pricing means no hidden fees—just reliable, straightforward service.
+                                    {t("description")}
                                 </p>
                             </MotionItem>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {[
                                 {
-                                    title: "Safe Package",
+                                    title: t("services.safePackage"),
                                     image: "/icons/packing-rounded.svg",
                                 },
                                 {
-                                    title: "Ship Everywhere",
+                                    title: t("services.shipEverywhere"),
                                     image: "/icons/ship-rounded.svg",
                                 },
                                 {
-                                    title: "Global Tracking",
+                                    title: t("services.globalTracking"),
                                     image: "/icons/global-rounded.svg",
                                 },
                                 {
-                                    title: "24/7 Support",
+                                    title: t("services.support"),
                                     image: "/icons/support-rounded.svg",
                                 },
                                 {
-                                    title: "In Time Delivery",
+                                    title: t("services.onTimeDelivery"),
                                     image: "/icons/time-rounded.svg",
                                 },
                                 {
-                                    title: "Transparent Pricing",
+                                    title: t("services.transparentPricing"),
                                     image: "/icons/time-rounded.svg",
                                 },
                             ].map((item, idx) => (

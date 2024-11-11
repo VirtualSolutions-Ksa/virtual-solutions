@@ -1,4 +1,4 @@
-import { Krub, Rubik } from "next/font/google";
+import { Krub, Rubik, Noto_Naskh_Arabic } from "next/font/google";
 
 export const rubik = Rubik({
     subsets: ["latin"],
@@ -12,3 +12,10 @@ export const krub = Krub({
     variable: '--font-kurb',
     subsets: ['latin']
 });
+
+export const noto = Noto_Naskh_Arabic({
+    weight: ['400', '500', '600', '700'],
+    display: 'swap',
+    variable: '--font-noto',
+    subsets: ['arabic']
+})

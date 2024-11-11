@@ -20,5 +20,41 @@
         "appSubTitle": "TRANSPORTATION & LOGISTICS",
         "openTime": "Mon - Fri 9.00 - 18.00",
         "closedDay": "Sunday Closed"
+    },
+    "homeBanner": {
+        "subheading": "Logistics & Supply Chain Solutions",
+        "heading": "Your Gateway to any Destination in the World",
+        "description": "We provide the best logistics and transport solutions to ensure your goods are delivered safely and on time.",
+        "buttonText": "Get Quote"
+    },
+    "whyUs": {
+        "heading": "Why us",
+        "subHeading": "Safe, Reliable, and Cost-Effective Cargo Solutions",
+        "description": "At Virtual Solutions, we are committed to providing the most efficient and reliable logistics and cargo solutions that ensure your goods reach their destination safely and on time. With a team of experts and cutting-edge technology, we offer unmatched service quality in the transportation and shipping industry.",
+        "features": {
+            "onTimeDelivery": "On-Time Delivery, Every Time",
+            "optimizedShipping": "Optimized Shipping Costs for Maximum Efficiency"
+        }
+    },
+    "homeServices": {
+        "heading": "What We Do",
+        "subHeading": "Safe & Reliable Cargo Solutions"
+    },
+    "companyStats": {
+            "deliveredPackages": "Delivered Packages",
+            "satisfiedClients": "Satisfied Clients"
+    },
+    "whyChoose": {
+        "heading": "Why Choose",
+        "subHeading": "We create opportunity to reach potential",
+        "description": "We offer a complete range of logistics services tailored to your needs, including secure packaging, global shipping, and real-time tracking. With 24/7 customer support and an on-time delivery guarantee, you can trust us to handle your shipments with care. Our transparent pricing means no hidden fees—just reliable, straightforward service.",
+        "services": {
+            "safePackage": "Safe Package",
+            "shipEverywhere": "Ship Everywhere",
+            "globalTracking": "Global Tracking",
+            "support": "24/7 Support",
+            "onTimeDelivery": "In Time Delivery",
+            "transparentPricing": "Transparent Pricing"
+        }
     }
 }

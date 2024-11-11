@@ -8,7 +8,9 @@ import { usePathname } from "next/navigation";
 
 
 export default function Header() {
-    const pathName = usePathname();    
+    const pathName = usePathname();  
+    console.log(pathName);
+    
 
     const t = useTranslations("Header");
     const locale = useLocale() as Locale;
@@ -21,7 +23,7 @@ export default function Header() {
     ]
 
     return (
-        <header className={`relative ${pathName === '/' ? 'bg-[hsla(196,60%,22%,0.25)]' : 'bg-primary'} `}>
+        <header className={`relative ${pathName === '/' || pathName === '/ar' ? 'bg-[hsla(196,60%,22%,0.25)]' : 'bg-primary'} `}>
             <div className="relative flex justify-between gap-6 items-center py-4 px-2 sm:px-4 md:py-5 lg:py-6 lg:px-10">
                 <div className="flex gap-2 md:gap-3 lg:gap-4 items-center">
                     <div className="h-10 w-10 md:h-14 md:w-14 ">

@@ -13,7 +13,7 @@ export default function Home({ params: { locale }, }: Readonly<{ params: { local
   return (
     <main>
       <HomeBanner />
-      <HomeServices />
+      <HomeServices locale={locale} />
       <WhyUs />
       <CompanyStats />
       <WhyChoose />
