@@ -15,8 +15,8 @@ We are here to assist you! Reach out to us for inquiries or support. Our team is
   +966 051842353  
 
 - **Operating Hours:**  
-  Mon - Fri: 9:00 AM - 6:00 PM  
-  Sunday: Closed  
+  Sat - Thu: 9:00 AM - 6:00 PM  
+  Firday: Closed  
 
 ---
 

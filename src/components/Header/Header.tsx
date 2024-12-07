@@ -8,8 +8,7 @@ import { usePathname } from "next/navigation";
 
 
 export default function Header() {
-    const pathName = usePathname();  
-    console.log(pathName);
+    const pathName = usePathname(); 
     
 
     const t = useTranslations("Header");
@@ -20,6 +19,7 @@ export default function Header() {
         { text: 'About', url: '/about' },
         { text: 'Services', url: '/services' },
         { text: 'Contact Us', url: '/contact' },
+        { text: 'Careers', url: '/careers' },
     ]
 
     return (

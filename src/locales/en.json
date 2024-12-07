@@ -18,8 +18,8 @@
     "Header": {
         "appTitle": "VIRTUAL SOLUTIONS",
         "appSubTitle": "TRANSPORTATION & LOGISTICS",
-        "openTime": "Mon - Fri 9.00 - 18.00",
-        "closedDay": "Sunday Closed"
+        "openTime": "Sat - Thu 9.00 - 18.00",
+        "closedDay": "Friday Closed"
     },
     "homeBanner": {
         "subheading": "Logistics & Supply Chain Solutions",

@@ -10,10 +10,7 @@ export default function page({ params }: { params: { locale: string; service: st
     const { service: url } = params;
     
     const service = data.services.find((service) => service.url === url);
-
-    console.log(service);
     
-
     if (!service) {
         notFound();
     }
