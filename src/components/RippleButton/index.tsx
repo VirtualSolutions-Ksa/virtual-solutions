@@ -6,7 +6,7 @@ interface RippleButtonProps {
     buttonCss: string;
     buttonText: string;
     href?: string;
-    onClick?: () => void;
+    handleClick?: () => void;
     component?: "link" | "button";
 }
 
@@ -15,6 +15,7 @@ export default function RippleButton({
     buttonText,
     component = 'button',
     href,
+    handleClick,
 }: RippleButtonProps) {
 
     const buttonRef = useRef<HTMLButtonElement>(null);
@@ -38,7 +39,7 @@ export default function RippleButton({
                 ref={buttonRef}
                 onMouseMove={handleMouseMove}
                 className={`${buttonCss} ripple-button`}
-                onClick={() => console.log("Button Clicked")}
+                onClick={handleClick || (() => { })}
             >
                 <span className="relative z-[1]">{buttonText}</span>
             </button>

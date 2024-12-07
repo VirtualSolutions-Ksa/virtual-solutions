@@ -55,9 +55,10 @@ export default function CareersPage() {
                         At Virtual Solutions, we believe in fostering talent, driving innovation, and creating an environment where individuals can thrive. Join us to be a part of a team dedicated to redefining logistics.
                     </p>
                     <RippleButton
-                        component="link"
+                        component="button"
                         buttonText="Explore Opportunities"
                         buttonCss="mt-7 py-4 px-10 w-fit font-kurb text-base font-medium text-white bg-primary before:bg-secondary hover:before:w-[200px] hover:text-primary hover:before:h-[200px]"
+                        handleClick={() => document.getElementById('opportunities')?.scrollIntoView({ behavior: 'smooth' })}
                     />
                 </motion.div>
             </section>
@@ -133,26 +134,41 @@ export default function CareersPage() {
                     </p>
                 </div>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    {/* Example Job Cards */}
-                    {jobs?.map((job) => (
-                        <motion.div
-                            key={job._id}
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
-                        >
-                            <h3 className="text-xl font-semibold text-primary">{job.title}</h3>
-                            <p className="text-sm text-gray-500 mt-2">{job.location}</p>
-                            <a
-                                href={`/careers/${job._id}`}
-                                className="block mt-4 text-secondary underline font-medium hover:text-primary"
+                    {jobs && jobs.length > 0 ? (
+                        jobs.map((job) => (
+                            <motion.div
+                                key={job._id}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
                             >
-                                Learn More
+                                <h3 className="text-xl font-semibold text-primary">{job.title}</h3>
+                                <p className="text-sm text-gray-500 mt-2">{job.location}</p>
+                                <a
+                                    href={`/careers/${job._id}`}
+                                    className="block mt-4 text-secondary underline font-medium hover:text-primary"
+                                >
+                                    Learn More
+                                </a>
+                            </motion.div>
+                        ))
+                    ) : (
+                        <div className="text-center col-span-full">
+                            <h3 className="text-2xl font-semibold text-gray-700">No Opportunities Available</h3>
+                            <p className="text-gray-600 mt-2">
+                                Currently, there are no job openings. Please check back later or feel free to contact us for future opportunities.
+                            </p>
+                            <a
+                                href="/contact"
+                                className="inline-block mt-6 px-6 py-3 bg-primary text-white rounded-lg shadow hover:bg-dark-primary"
+                            >
+                                Contact Us
                             </a>
-                        </motion.div>
-                    ))}
+                        </div>
+                    )}
                 </div>
             </section>
+
         </main>
     );
 }
