@@ -15,10 +15,10 @@ export default function Footer() {
         {
             title: "Services",
             items: [
-                { text: 'Sea Transport', url: '/products/laptops' },
-                { text: 'Air Freight', url: '/products/smartphones' },
-                { text: 'Local Freight', url: '/products/cameras' },
-                { text: 'Packing', url: '/products/accessories' },
+                { text: 'Sea Transport', url: '/services/sea-transport' },
+                { text: 'Air Freight', url: '/services/air-freight' },
+                { text: 'Local Freight', url: '/services/local-freight' },
+                { text: 'Packing', url: '/services/packing' },
             ]
         },
         {
@@ -28,6 +28,7 @@ export default function Footer() {
                 { text: 'About', url: '/about' },
                 { text: 'Services', url: '/services' },
                 { text: 'Contact Us', url: '/contact' },
+                { text: 'Careers', url: '/careers' },
             ]
         }
     ];
