@@ -6,9 +6,9 @@ export default function Footer() {
     const t = useTranslations("Header");
 
     const socialMedias = [
-        { url: "/icons/instagram.png", link: 'https://www.instagram.com' },
-        { url: "/icons/facebook.png", link: 'https://www.instagram.com' },
-        { url: "/icons/whatsapp.png", link: 'https://wa.me/123456789' },
+        { url: "/icons/instagram.png", link: 'https://www.instagram.com/virtual_solutions_est' },
+        { url: "/icons/linked-in.png", link: 'https://www.linkedin.com/company/virtual-solutions-est/' },
+        { url: "/icons/whatsapp.png", link: 'https://wa.me/501842353' },
     ];
 
     const footerData = [
@@ -58,9 +58,9 @@ export default function Footer() {
                   <div className="flex gap-4">
                       {
                           socialMedias.map((soc, idx) => (
-                              <div key={idx} className="p-2 rounded-lg border border-[#E2E8F0]">
+                              <a key={idx} href={soc.link} className="p-2 rounded-lg border border-[#E2E8F0] cursor-pointer">
                                   <img src={soc.url} alt="" className="h-5 w-5 object-contain object-center" />
-                              </div>
+                              </a>
                           ))
                       }
                   </div>

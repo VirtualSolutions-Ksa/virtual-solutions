@@ -106,8 +106,8 @@ export default function Page() {
                             </div>
                             <div className="text-white font-kurb text-sm font-medium leading-[136%]">
                                 <p>Call Us</p>
-                                <Link href="tel:+051842353">
-                                    051842353
+                                <Link href="tel:+96651842353">
+                                    51842353
                                 </Link>
                             </div>
                         </div>

@@ -60,7 +60,7 @@ export default function ContactForm() {
               }}
               viewport={{ once: true }}
               transition={{ duration: 3, type: 'spring' }}
-              aria-hidden className='grid grid-cols-1 md:grid-cols-3'>
+              aria-hidden className='grid grid-cols-1 md:grid-cols-3 gap-5'>
               <div className='col-span-1'>
                   <LableHeading text="Contact" styles="text-white bg-[rgba(26,45,64,0.50)]" />
                   <h4 className="mt-2 text-xl text-white md:text-[35px]/normal font-bold leading-normal" aria-label="Main Heading">
