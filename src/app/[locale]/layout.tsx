@@ -107,6 +107,7 @@ export default  function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        <meta name="google-site-verification" content="X2HYYfaiAnfHNZa7z9UQKB5BhjfngxGH3SayyvYDFoY" />
       </head>
       <body
         className={`2xl:container mx-auto ${locale == 'ar' ? 'font-noto': 'font-kurb'}`}
