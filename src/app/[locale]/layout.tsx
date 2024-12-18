@@ -80,6 +80,21 @@ export default  function RootLayout({
   unstable_setRequestLocale(locale);
   const dir = useTextDirection();
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Virtual Solutions",
+    "url": "https://www.virtualksa.com",
+    "logo": "https://www.virtualksa.com/images/logo.png",
+    "sameAs": [
+      "https://www.instagram.com/virtual_solutions_est",
+      "https://www.linkedin.com/company/virtual-solutions-est/",
+    ],
+    "description":
+      locale === "ar"
+        ? "الحلول الافتراضية لخدمات النقل والخدمات اللوجستية."
+        : "Virtual Solutions for logistics and transportation services.",
+  };
 
   return (
     <html
@@ -87,6 +102,12 @@ export default  function RootLayout({
       className={`${locale === 'ar' ? 'font-noto' : 'font-rubik'} ${locale == 'ar' ? `${noto.variable}` : `${rubik.variable} ${krub.variable}`}`}
       dir={dir}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body
         className={`2xl:container mx-auto ${locale == 'ar' ? 'font-noto': 'font-kurb'}`}
       >

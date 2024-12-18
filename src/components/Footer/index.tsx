@@ -103,11 +103,14 @@ export default function Footer() {
                               </div>
                               <div className="flex gap-4">
                                   <div className="w-[0.2px] bg-[#F5F5F5] ml-[2px]"></div>
-                                  <p className="text-white text-sm font-normal leading-[20px] capitalize text-balance">
-                                      Istanbul - Suali - Riyadh 11521
-                                  </p>
+                                      <p className="text-white text-sm font-normal leading-[20px] capitalize text-balance">
+                                          ISTANBUL - SULAI - Riyadh - Saudi Arabia, 11521, As Sulay, Riyadh 11521, SA
+                                      </p>
                               </div>
                           </div>
+                          <Link className="mt-4 text-white font-rubik text-base underline leading-5" href={'https://www.bing.com/maps?&ty=18&q=ISTANBUL%20%7C%20SULAI%20%7C%2C%20Riyadh%2C%20Saudi%20Arabia%2C%C2%A011521%2C%20As%20Sulay%2C%20Riyadh%2011521%2C%20SA&mb=24.680603~46.816687~24.672889~46.830164&cardbg=%23F98745&dt=1734503400000&tt=Istanbul%20Street%20-%20Al%20Fayha%2C%20Riyadh%2014254%2C%20Saudi%20Arabia&tsts0=%2526ty%253D18%2526q%253DISTANBUL%252520%25257C%252520SULAI%252520%25257C%25252C%252520Riyadh%25252C%252520Saudi%252520Arabia%25252C%2525C2%2525A011521%25252C%252520As%252520Sulay%25252C%252520Riyadh%25252011521%25252C%252520SA%2526mb%253D24.680603~46.816687~24.672889~46.830164%2526cardbg%253D%252523F98745%2526dt%253D1734503400000&tstt0=Istanbul%20Street%20-%20Al%20Fayha%2C%20Riyadh%2014254%2C%20Saudi%20Arabia&cp=24.676746~46.819584&lvl=16.47&pi=0&ftst=0&ftics=False&v=2&sV=2&form=S00027'}>
+                              Get Direction -&gt;
+                          </Link>
                       </div>
                   </div>
               </div>
