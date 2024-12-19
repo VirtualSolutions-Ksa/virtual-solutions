@@ -7,6 +7,7 @@ import Header from "@/components/Header/Header";
 import useTextDirection from "@/hooks/useTextDirection";
 import NextIntlClientWrapper from "@/components/NextIntlClientWrapper/NextIntlClientWrapper";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 
 export function generateStaticParams() {
@@ -108,6 +109,18 @@ export default  function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         <meta name="google-site-verification" content="X2HYYfaiAnfHNZa7z9UQKB5BhjfngxGH3SayyvYDFoY" />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-DFGPXB8C6L`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DFGPXB8C6L');
+          `}
+        </Script>
       </head>
       <body
         className={`2xl:container mx-auto ${locale == 'ar' ? 'font-noto': 'font-kurb'}`}
