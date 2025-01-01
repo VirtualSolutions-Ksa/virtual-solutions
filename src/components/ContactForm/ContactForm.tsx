@@ -87,8 +87,8 @@ export default function ContactForm() {
                           </div>
                           <div className="text-white font-kurb text-sm font-medium leading-[136%]">
                               <p>Call Us</p>
-                              <Link href="tel:+051842353">
-                                  051842353
+                              <Link href="tel:+0501842353">
+                                  0501842353
                               </Link>
                           </div>
                       </div>

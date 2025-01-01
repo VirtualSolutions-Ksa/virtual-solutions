@@ -7,6 +7,7 @@ import WhyChoose from '@/components/WhyChoose';
 import { unstable_setRequestLocale } from "next-intl/server";
 import Testimonial from "@/components/Testimonial";
 import ContactForm from "@/components/ContactForm/ContactForm";
+import BrandLogos from "@/components/BrandLogos/BrandLogos";
 
 export default function Home({ params: { locale }, }: Readonly<{ params: { locale: string } }>) {
   unstable_setRequestLocale(locale);
@@ -20,6 +21,7 @@ export default function Home({ params: { locale }, }: Readonly<{ params: { local
       <SerivesCardSection />
       <Testimonial />
       <ContactForm />
+      <BrandLogos />
     </main>
   );
 }
