@@ -19,9 +19,9 @@ export default function Home({ params: { locale }, }: Readonly<{ params: { local
       <CompanyStats />
       <WhyChoose />
       <SerivesCardSection />
+      <BrandLogos />
       <Testimonial />
       <ContactForm />
-      <BrandLogos />
     </main>
   );
 }
