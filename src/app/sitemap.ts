@@ -51,8 +51,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/sea-transport',
-                    ar: 'https://www.virtualksa.com/services/ar/sea-transport',
+                    en: 'https://www.virtualksa.com/en/services/sea-transport',
+                    ar: 'https://www.virtualksa.com/ar/services/sea-transport',
                 },
             },
             priority: 0.80,
@@ -62,8 +62,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/warehousing',
-                    ar: 'https://www.virtualksa.com/services/ar/warehousing',
+                    en: 'https://www.virtualksa.com/en/services/warehousing',
+                    ar: 'https://www.virtualksa.com/ar/services/warehousing',
                 },
             },
             priority: 0.80,
@@ -73,8 +73,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/local-freight',
-                    ar: 'https://www.virtualksa.com/services/ar/local-freight',
+                    en: 'https://www.virtualksa.com/en/services/local-freight',
+                    ar: 'https://www.virtualksa.com/ar/services/local-freight',
                 },
             },
             priority: 0.80,
@@ -84,8 +84,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/relocating',
-                    ar: 'https://www.virtualksa.com/services/ar/relocating',
+                    en: 'https://www.virtualksa.com/en/services/relocating',
+                    ar: 'https://www.virtualksa.com/ar/services/relocating',
                 },
             },
             priority: 0.80,
@@ -95,8 +95,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/packing',
-                    ar: 'https://www.virtualksa.com/services/ar/packing',
+                    en: 'https://www.virtualksa.com/en/services/packing',
+                    ar: 'https://www.virtualksa.com/ar/services/packing',
                 },
             },
             priority: 0.80,
@@ -106,8 +106,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
             alternates: {
                 languages: {
-                    en: 'https://www.virtualksa.com/services/en/dhl-shipping',
-                    ar: 'https://www.virtualksa.com/services/ar/dhl-shipping',
+                    en: 'https://www.virtualksa.com/en/services/dhl-shipping',
+                    ar: 'https://www.virtualksa.com/ar/services/dhl-shipping',
                 },
             },
             priority: 0.80,
