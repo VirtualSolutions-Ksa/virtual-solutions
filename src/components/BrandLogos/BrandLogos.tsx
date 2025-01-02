@@ -129,7 +129,7 @@ const BrandLogos: React.FC = () => {
         '/images/logos/Asset 69@300x.png',
         '/images/logos/Asset 70@300x.png',
         '/images/logos/Asset 71@300x.png',
-        '/images/logos/Asset 72@300x.svg',
+        '/images/logos/Asset 72@300x.png',
     ];
 
     return (
@@ -153,7 +153,7 @@ const BrandLogos: React.FC = () => {
                 {logos.map((logo, index) => (
                     <div
                         key={index}
-                        className="flex justify-center items-center mx-4"
+                        className="flex justify-center items-center mx-10"
                     >
                         <img
                             src={logo}
