@@ -18,7 +18,7 @@ export async function generateMetadata({
   params: { locale },
 }: {
   params: { locale: Locale };
-  }): Promise<Metadata> {
+}): Promise<Metadata> {
 
 
   const t = await getTranslations({
@@ -31,10 +31,10 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical:'https://www.virtualksa.com/',
+      canonical:'/',
       languages: {
-        en: 'https://www.virtualksa.com/en', 
-        ar: 'https://www.virtualksa.com/ar',
+        en: '/en', 
+        ar: '/ar',
       },
     },
     keywords: [t('logistics'), t('transportation'), t('supply chain'), t('freight services'), t('global shipping'), t('warehousing'), t('Virtual Solutions')],
