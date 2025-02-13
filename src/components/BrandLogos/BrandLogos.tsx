@@ -130,6 +130,7 @@ const BrandLogos: React.FC = () => {
         '/images/logos/Asset 70@300x.png',
         '/images/logos/Asset 71@300x.png',
         '/images/logos/Asset 72@300x.png',
+        '/images/trans-fright.png'
     ];
 
     return (
