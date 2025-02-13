@@ -159,7 +159,7 @@ const BrandLogos: React.FC = () => {
                         <img
                             src={logo}
                             alt={`Brand logo ${index + 1}`}
-                            className="w-auto h-[65px] object-contain"
+                            className="w-auto min-h-[65px] max-h-28 h-auto object-contain"
                         />
                     </div>
                 ))}
